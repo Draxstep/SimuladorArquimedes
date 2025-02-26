@@ -1,4 +1,5 @@
 class Model {
+    
     calculatePushForce(density, volume, gravity) {
         return density * volume * gravity;
     }
